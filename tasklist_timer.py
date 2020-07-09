@@ -1,15 +1,6 @@
 import os, csv
 from psychopy import core
 import sys
-
-# might be nice to have an auto quit that closes all windows....
-
-
-# This script uses only a subset of features: Send_hourglass_command.
-# to use it, update the tasklist.txt file with a single column of tasks. time limit is assumed to be 6m.
-# run script.
-
-
 	
 def cmd_arg_assign(default,argument_number=1):
 	# tries to assign sys_arg value; if not, then sets a default.
