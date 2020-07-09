@@ -48,12 +48,9 @@ For example, 10 minutes per task with a 20 minute break after every X task:
 simply pause the timer within Hourglass.
 
 ## skip task
-close the current hourglass timer window. Note the script will behave as if the task is completed, and this task will not reappear.
+close the current hourglass timer window. 
 
-# next
-current build only uses Send_hourglass_command.
-i.e. does not interface with read/write files.
+**Note:** The script will behave as if the task is completed, and this task will not reappear.
 
-might be nice to have an auto quit that closes all windows....
 
 
